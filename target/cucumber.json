@@ -1,0 +1,41 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify Search Field",
+        "description": "",
+        "id": "dell-technologies;verify-search-field",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 160988800,
+              "error_message": "java.lang.NullPointerException\r\n\tat DellProjectUtility.DellProjectBase.DellProjectURL(DellProjectBase.java:42)\r\n\tat DellProjectStepDefinition.DellProject.open_Dell_Application(DellProject.java:10)\r\n\tat ✽.Given Open Dell\u003c\"URL\"\u003e Application(DellProject.feature:5)\r\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "Open Dell\u003c\"URL\"\u003e Application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 11
+                }
+              ],
+              "location": "DellProject.open_Dell_Application(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Dell Technologies",
+    "description": "",
+    "id": "dell-technologies",
+    "keyword": "Feature",
+    "uri": "DellProject.feature"
+  }
+]
